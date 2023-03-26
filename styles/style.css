@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+
+    background-color: rgb(7, 7, 7);
+    color: aliceblue;
+
+}
+
+
+/*tipos de cuchillo*/
+
+/* .main-tipode {
+    display: flex;
+    flex-direction: column;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.25fr 1fr;
+    gap: 30px;
+}
+.grid-container div img {
+    width: 300px;
+    height: 185px;
+} */
+
+.flex-container {
+    display: flex;
+}
+
+.card-text {
+ color: black;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.flex-footer {
+    display: flex;
+}
+
+/* responsive */
+
+/* tipos de cuchillo */
+
+@media (max-width: 768px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
