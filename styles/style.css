@@ -7,52 +7,75 @@ body {
 
     background-color: rgb(7, 7, 7);
     color: aliceblue;
-
+    min-height: 100vh;
+    
 }
 
-
-/*tipos de cuchillo*/
-
-/* .main-tipode {
-    display: flex;
-    flex-direction: column;
-}
-.grid-container {
-    display: grid;
-    grid-template-columns: 0.25fr 1fr;
-    gap: 30px;
-}
-.grid-container div img {
-    width: 300px;
-    height: 185px;
-} */
 
 .flex-container {
     display: flex;
 }
 
 .card-text {
- color: black;
+    color: black;
 }
 
-footer {
-    background-color: rgb(255, 255, 255);
+footer { 
+    margin-top: 600px;
+    
 }
 
 
-.flex-footer {
-    display: flex;
+
+
+
+
+
+/* index */
+
+#indexbody {
+    background-image: url("../images/imagen\ principal\ fondo\ index.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
+.tituloindex {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+}
+
+
+/* formulario */
+
+form {
+    border: solid;
+    border-radius: 5px;
+    box-shadow: 7px 15px 40px;
+}
+
+
+
+
+
+
+
 
 /* responsive */
 
 /* tipos de cuchillo */
 
 @media (max-width: 768px) {
-  .flex-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 50px;
 }
