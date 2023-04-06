@@ -1,0 +1,47 @@
+@import "index";
+@import "formulario";
+@import "galeria";
+@import "nosotros";
+@import "tiposde";
+ 
+
+/* variables */
+
+
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+
+    background-color: rgb(7, 7, 7);
+    color: rgb(232, 239, 245);
+    min-height: 100vh;
+
+}
+
+
+.flex-container {
+    display: flex;
+}
+
+.card-text {
+    color: black;
+}
+
+footer {
+    margin-top: 600px;
+
+}
+
+
+
+
+
+
+
+

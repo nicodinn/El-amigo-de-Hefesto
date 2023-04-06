@@ -1,0 +1,74 @@
+#indexbody {
+  background-image: url("../images/imagen principal fondo index.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#indexbody .tituloindex {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 4rem;
+}
+
+form {
+  border: solid;
+  border-radius: 5px;
+  box-shadow: 7px 15px 40px;
+}
+
+.cuchillos .contenedor {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
+}
+.cuchillos img {
+  width: 300px;
+  height: 250px;
+}
+.cuchillos img:hover {
+  box-shadow: 4px 4px 4px rgb(14, 7, 7);
+  filter: opacity(0.5);
+}
+
+.nosotros {
+  font-size: x-large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media (max-width: 768px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+h1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/* variables */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(7, 7, 7);
+  color: rgb(232, 239, 245);
+  min-height: 100vh;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.card-text {
+  color: black;
+}
+
+footer {
+  margin-top: 600px;
+}/*# sourceMappingURL=main.css.map */
